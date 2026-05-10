@@ -15,8 +15,10 @@ eye_cascade = cv2.CascadeClassifier(
 cap = cv2.VideoCapture(0)
 
 # Variables
+# Variables
 eyes_closed_start = None
 no_face_counter = 0
+
 DROWSY_TIME = 3  # seconds
 NO_FACE_TEXT = "NO DRIVER DETECTED"
 
